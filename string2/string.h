@@ -1,0 +1,8 @@
+#ifndef STRING_H
+#define STRING_H
+
+int my_strien(const_char *s);
+void my_strcpy(char *des, const char *src);
+int my_strcmp(const char *s1, const char *s2);
+void my_strcat(char*des, const char *src);
+#endif
